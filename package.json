@@ -1,0 +1,77 @@
+{
+  "id": "nodebb-plugin-baidu-autopush",
+  "name": "nodebb-plugin-baidu-autopush",
+  "version": "1.0.0",
+  "description": "Nodebb plugin for Baidu URL Auto Push",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["baidu","seo"],
+  "author": { "name": "Zhao Bin"},
+  "license": "MIT",
+
+  "_args": [
+    [
+      {
+        "raw": "nodebb-plugin-baidu-autopush@1.0.0",
+        "scope": null,
+        "escapedName": "nodebb-plugin-baidu-autopush",
+        "name": "nodebb-plugin-baidu-autopush",
+        "rawSpec": "1.0.0",
+        "spec": "1.0.0",
+        "type": "version"
+      },
+      "/home/user/nodebb"
+    ]
+  ],
+  "_from": "nodebb-plugin-baidu-autopush@1.0.0",
+  "_id": "nodebb-plugin-baidu-autopush@1.0.0",
+  "_inCache": true,
+  "_location": "/nodebb-plugin-baidu-autopush",
+  "_nodeVersion": "10.15.3",
+  "_npmUser": {
+    "name": "Zhao Bin",
+    "email": "57509007@qq.com"
+  },
+  "_npmVersion": "6.12.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "nodebb-plugin-baidu-autopush@1.0.0",
+    "scope": null,
+    "escapedName": "nodebb-plugin-baidu-autopush",
+    "name": "nodebb-plugin-baidu-autopush",
+    "rawSpec": "1.0.0",
+    "spec": "1.0.0",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_shrinkwrap": null,
+  "_spec": "nodebb-plugin-baidu-autopush@1.0.0",
+  "_where": "/home/user/nodebb",
+  "bugs": {
+    "url": "https://github.com/yang-zhang-syd/nodebb-plugin-baidu-autopush/issues"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {},
+  "directories": {},
+  "homepage": "https://github.com/yang-zhang-syd/nodebb-plugin-baidu-autopush#readme",
+  "maintainers": [
+    {
+      "name": "Zhao Bin",
+      "email": "57509007@qq.com"
+    }
+  ],
+  "nbbpm": {
+    "compatibility": "^1.7.0"
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yang-zhang-syd/nodebb-plugin-baidu-autopush.git"
+  }
+}
