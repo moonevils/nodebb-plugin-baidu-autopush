@@ -52,13 +52,13 @@
   "_spec": "nodebb-plugin-baidu-autopush@1.0.0",
   "_where": "/home/user/nodebb",
   "bugs": {
-    "url": "https://github.com/yang-zhang-syd/nodebb-plugin-baidu-autopush/issues"
+    "url": "https://github.com/moonevils/nodebb-plugin-baidu-autopush/issues"
   },
   "dependencies": {
   },
   "devDependencies": {},
   "directories": {},
-  "homepage": "https://github.com/yang-zhang-syd/nodebb-plugin-baidu-autopush#readme",
+  "homepage": "https://github.com/moonevils/nodebb-plugin-baidu-autopush#readme",
   "maintainers": [
     {
       "name": "Zhao Bin",
@@ -72,6 +72,6 @@
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yang-zhang-syd/nodebb-plugin-baidu-autopush.git"
+    "url": "git+https://github.com/moonevils/nodebb-plugin-baidu-autopush.git"
   }
 }
