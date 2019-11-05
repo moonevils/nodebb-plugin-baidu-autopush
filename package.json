@@ -3,7 +3,7 @@
   "name": "nodebb-plugin-baidu-autopush",
   "version": "1.0.0",
   "description": "Nodebb plugin for Baidu URL Auto Push",
-  "main": "main.js",
+  "main": "static/lib/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

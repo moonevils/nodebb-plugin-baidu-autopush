@@ -1,0 +1,13 @@
+{
+  "id": "nodebb-plugin-baidu-autopush",
+  "name": "nodebb-plugin-baidu-autopush",
+  "description": "Nodebb plugin for Baidu URL Auto Push",
+  "url": "https://github.com/moonevils/nodebb-plugin-baidu-autopush.git",
+  "library": "./main.js",
+  "hooks": [
+    {
+      "hook": "action:topic.save",
+      "method": "hooks.action.topicSave"
+    }
+  ]
+}
