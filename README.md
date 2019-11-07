@@ -14,5 +14,13 @@ List of NodeBB entities that will be processed and transliterated:
 ## Notes
 
 - plugin for baidu websit url auto push.
-- Add baidu key as new item to config.json
+
+## Install
+
+- First install plugin nodebb-plugin-remove-slug for your nodebb  
+- Add baidu key as new item to your nodebb config.json
      "secret": "XXXXXXX-3874-476d-82e1-XXXXXXXX",
+- Install this plugin
+
+Official website：http://www.rioston.com
+Official forum: http://www.rioston.com/forum

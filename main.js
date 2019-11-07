@@ -31,7 +31,6 @@ http://www.example.com/2.html
 
         var contentURL = baseUrl + "/topic/" + tid + "/post";
 
-
         var options = {
             host: "data.zz.baidu.com",
             path: URL,//接口的调用地址
@@ -46,8 +45,6 @@ http://www.example.com/2.html
         httprequest(options, contentURL);
         console.log("contentURL: " + contentURL);
 
-
-
     }
 
 
@@ -57,7 +54,7 @@ http://www.example.com/2.html
         {
             res.setEncoding("utf8");
             res.on("data", function (data) {
-                console.log("data:", data); //返回的数据
+                // console.log("data:", data); //返回的数据
             });
         });
         req.write(content);
@@ -68,17 +65,10 @@ http://www.example.com/2.html
     //NodeBB list of Hooks: https://github.com/NodeBB/NodeBB/wiki/Hooks
     Plugin.hooks = {
         action: {
-            topicSave: function (topicData, callback) {
+            topicSave: function (topicData, callback)
+            {
 
-                // cid 分类的ID
-                console.log(topicData.topic.cid);
-
-
-                //tid topic ID
-                console.log(topicData.topic.tid);
-
-
-                AutoPush(topicData.topic.tid);
+                 AutoPush(topicData.topic.tid);
 
             }
         }
